@@ -109,6 +109,8 @@
     font-family: var(--bannerFont);
     font-size: 13px;
     line-height: 22px;
+    background: var(--bannerColorWhite) !important;
+    color: var(--cookieHeadlineColor) !important;
 }
 
 .smallbanernotics a{
@@ -128,13 +130,13 @@
     outline: none;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    background: white;
+    background: white !important;
     font-weight: 600;
 }
 
 .smallbannerbuttons .accept{
-    background: black;
-    color: white;
+    background: black !important;
+    color: white !important;
 }
 
 .cross svg {
