@@ -43,7 +43,7 @@ var darkModeEnable = false;
 var darkModeDefault = localStorage.getItem("viewMode") ? localStorage.getItem("viewMode") : "light";
 var showIconOfModes = true;
 
-var bannerShowingDelayed = 10000;
+var bannerShowingDelayed = 10000 !important;
 var linkArrowSvgWidth = "15px";
 var linkArrowSvg = ``;
 
