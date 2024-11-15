@@ -8,7 +8,7 @@ var learnMoreText = "Learn more about the provider";
 
 var topSectionText = ["Consent", "Details", "About"];
 
-var firstSectionText = "We use cookies to personalize content and ads, provide social media features, and analyze our traffic. We also share information about your use of our website with our social media, advertising, and analytics partners, who may combine it with other information you have provided to them or that they have collected from your use of their services.";
+var firstSectionText = "We use cookies to enhance your experience, as well as for analytics and measurement purposes. By continuing to use our website and services, you agree to our use of cookies as outlined in our Cookie Policy and Privacy Policy.";
 
 var thirdSectionText = "Cookies are small text files that are used by websites to improve the user experience. The law states that we can store cookies on your device if they are strictly necessary for the operation of this website. For all other types of cookies, we need your permission. This means that cookies classified as necessary are managed according to Article 6(1)(f) of the GDPR. All other cookies, such as those in the Preferences and Marketing categories, are managed according to Article 6(1)(a) of the GDPR. This website uses different types of cookies. Some cookies are set by third-party services that appear on our pages.";
 
@@ -358,7 +358,7 @@ function createMainElements() {
         <div class="smallbanernotics">
             <span>
                 We use cookies to personalize your experience, and for measurement and analytics purposes. By using our website and services, you agree to our use of cookies as described in our 
-                <a href="#">Cookie Notice & Privacy Notice</a>
+                <a href="#"> cookie policy & privacy policy</a>
             </span>
         </div>
         <div class="smallbannerbuttons">
