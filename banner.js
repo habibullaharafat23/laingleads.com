@@ -874,5 +874,8 @@ window.addEventListener('load', function(){
 
     document.querySelectorAll(".switch")[0].style.opacity = "0.5";
 
-    checkChoiceShowBanner()
+    setTimeout(function(){
+        checkChoiceShowBanner()
+    }, bannerShowingDelayed)
+    
 })
