@@ -102,12 +102,12 @@
     column-gap: 20px;
     width: 815px;
     position: fixed;
-    padding: 20px;
+    padding: 25px;
     bottom: 20px;
     left: 20px;
     box-shadow: rgba(36, 36, 36, 0.15) 0px 0px 10px 0px;
     font-family: var(--bannerFont);
-    font-size: 13px;
+    font-size: 14px;
     line-height: 22px;
     background: var(--bannerColorWhite) !important;
     color: var(--cookieHeadlineColor) !important;
