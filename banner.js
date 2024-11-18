@@ -675,6 +675,7 @@ function choiceButtonClicks(){
         })
 
         localStorage.setItem("bannerChoice", JSON.stringify(checkedCategories));
+        choiceMade()
 
 
         gtag('consent', 'update', consent);
@@ -703,20 +704,22 @@ function checkChoiceShowBanner(){
     var choiceMade = localStorage.getItem("choiceMade");
     var showBanner = localStorage.getItem("showBanner");
 
+    console.log(choiceMade)
+
     if(showBanner == "true"){
         if(!choiceMade){
             showHide(false, false, true)
         }else if(choiceMade){
-            showHide(false, false)
+            showHide(false, false, false)
         }
 
     }else if(showBanner == "false"){
-        showHide(false, false);
+        showHide(false, false, false);
 
     }
 
     miniIcon.onclick = function(){
-        showHide(false, false)
+        showHide(false, false, false)
     }
 }
 
