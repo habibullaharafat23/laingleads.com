@@ -357,8 +357,8 @@ function createMainElements() {
     createSmallBanner.innerHTML = `
         <div class="smallbanernotics">
             <span>
-                We use cookies to personalize your experience, and for measurement and analytics purposes. By using our website and services, you agree to our use of cookies as described in our 
-                <a href="#"> cookie policy & privacy policy</a>
+                We use cookies to enhance your experience, as well as for analytics and measurement purposes. By continuing to use our website and services, you agree to our use of cookies as outlined in our 
+                <a href="https://liang-leads.webflow.io/privacy"> cookie policy & privacy policy</a>
             </span>
         </div>
         <div class="smallbannerbuttons">
